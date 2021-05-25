@@ -1,0 +1,24 @@
+{
+  "name": "projet_aaw_bank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbouti/Projet_AAW_Bank.git"
+  },
+  "script" : {
+        "build" : "parcel build -0 /target/classes/public ./src/main/resources/public/index.html",
+        "start-dev" : "parcel serve -o /target/classes/public ./src/main/resources/public/index.html"
+        
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbouti/Projet_AAW_Bank/issues"
+  },
+  "homepage": "https://github.com/sbouti/Projet_AAW_Bank#readme"
+}
