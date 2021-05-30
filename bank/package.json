@@ -10,10 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/sbouti/Projet_AAW_Bank.git"
   },
-  "script" : {
-        "build" : "parcel build -0 /target/classes/public ./src/main/resources/public/index.html",
-        "start-dev" : "parcel serve -o /target/classes/public ./src/main/resources/public/index.html"
-        
+  "script": {
+    "build": "parcel build -0 /target/classes/public ./src/main/resources/public/index.html",
+    "start-dev": "parcel serve -o /target/classes/public ./src/main/resources/public/index.html"
   },
   "author": "",
   "license": "ISC",
